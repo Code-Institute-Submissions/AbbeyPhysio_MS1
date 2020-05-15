@@ -173,6 +173,22 @@
     background-color: #fabc2a;
 }
 
+/***********************************Features********************************/
+
+.container-features {
+    padding-top: 20px;
+}
+
+.btn-pink {
+    background-color: #f05365;
+    color: #fafafa;
+}
+
+.btn-pink:hover {
+    border-color: #fabc2a;
+    background-color: #fabc2a;
+}
+
 /***********************************Footer********************************/
 .footercontent {
     margin-top: 10px;
