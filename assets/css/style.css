@@ -230,7 +230,6 @@
 .bio>h2 {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
-    /*text-transform: uppercase;*/
     color: #181818;
     font-size: 25px;
     margin-bottom: 50px;
@@ -242,8 +241,6 @@
     margin-bottom: 50px;
 }
 
-
-/***********************************Footer********************************/
 .footercontent {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -277,8 +274,8 @@
     color:rgba(240,83,101,0.85);
 }
 .googlemap {
-    padding-top: 20px;
-    padding-right: 40px;
+    padding-top: 30px;
+    padding-right: 20px;
 }
 
 .block-divider-white {
@@ -308,6 +305,11 @@
     margin: auto;
 }
 
+.locationfooter {
+    padding-right: 65px;
+    padding-left: 65px;
+}
+
 }
 
 
@@ -321,5 +323,53 @@
     max-width: 60px;
     padding: 5px;
 }
+
+.locationfooter {
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
  }
 
+@media (max-width: 400.98px) { 
+.mainheading {
+    font-size: 20px;
+}
+
+.navbar-brand > img {
+    max-height: 60px;
+    max-width: 60px;
+    padding: 5px;
+}
+
+.locationfooter {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+ }
+
+
+.container-location {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.largegooglemaps {
+    width: 70%;
+}
+
+.address>h3 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    color: #181818;
+    font-size: 35px;
+}
+
+.address>p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: #181818;
+    font-size: 18px;
+}
