@@ -29,6 +29,11 @@
     margin-top: 35px;
 }
 
+.btn-success>a {
+    color:#fafafa;
+    text-decoration: none;
+}
+
 .btn-success:hover {
     border-color: #fabc2a;
     background-color: #fabc2a;
@@ -176,7 +181,9 @@
 /***********************************Features********************************/
 
 .container-features {
-    padding-top: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
 }
 
 .btn-pink {
@@ -189,10 +196,58 @@
     background-color: #fabc2a;
 }
 
+/***********************************About Content********************************/
+
+.container-about {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.bio {
+    width: 50%;
+}
+
+.headshot>img {
+    display:block;
+    margin: auto;
+    width:300px;
+    height:300px;
+    object-fit:cover;
+    border-radius: 50%;
+    border-color: #f05365;
+    border-style: solid;
+    border-width: 5px;
+}
+
+.bio>h3 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    /*text-transform: uppercase;*/
+    color: #181818;
+    font-size: 30px;
+}
+
+.bio>h2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    /*text-transform: uppercase;*/
+    color: #181818;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+.wide-block-divider {
+    width: 75%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
 /***********************************Footer********************************/
 .footercontent {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
 }
 
 .footercontent>h2 {
@@ -226,6 +281,10 @@
     padding-right: 40px;
 }
 
+.block-divider-white {
+        background-color: #fafafa;
+}
+
 /***********************************Mobile Content Adjustment********************************/
 
 @media (max-width: 767.98px) {
@@ -242,6 +301,11 @@
 .googlemap {
     padding-top: 20px;
     padding-right: 10px;
+}
+
+.nav-item {
+    width: 100%;
+    margin: auto;
 }
 
 }
