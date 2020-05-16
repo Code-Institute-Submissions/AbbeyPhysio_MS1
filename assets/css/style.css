@@ -254,10 +254,6 @@ body {
     padding-bottom: 60px;
 }
 
-.bio {
-    width: 50%;
-}
-
 .headshot {
     display:block;
     margin: auto;
@@ -270,20 +266,36 @@ body {
     border-width: 5px;
 }
 
-.bio>h3 {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    /*text-transform: uppercase;*/
-    color: #181818;
-    font-size: 30px;
+/***********************************Services Content********************************/
+
+.container-services {
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
-.bio>h2 {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    color: #181818;
-    font-size: 25px;
-    margin-bottom: 50px;
+.btn-services {
+    margin-top: 0;
+    width: 100%;
+    border: 0px;
+    color: #252a3f;
+    text-align: left;
+}
+
+.btn-services:hover {
+    background-color: rgba(120,161,187,0.75);
+    font-weight: 700;
+    color: #252a3f;
+    text-decoration: none;
+}
+
+.card-header {
+    background-color: rgba(120,161,187,0.25);
+    padding: 0;
+}
+
+.card {
+    width: 95%;
+    margin: auto;
 }
 
 /***********************************Location Page Content Styling********************************/
