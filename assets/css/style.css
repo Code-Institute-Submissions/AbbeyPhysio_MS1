@@ -1,7 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
+/******************************remove unwanted general stylings*******************************/
+
 .row {
     margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
 }
 
 /******************************BACKGROUND COLOURS*******************************/
@@ -18,41 +28,75 @@
     background-color: #f05365;
 }
 
-/******************************HEADER*******************************/
+/******************************General Heading and Text Styles*******************************/
 
-.btn-success {
+.largeheading {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    color: #252a3f;
+    font-size: 35px;
+}
+
+.mediumheading {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    color: #252a3f;
+    font-size: 25px;
+}
+
+.smallheading {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    color: #252a3f;
+    font-size: 20px;
+}
+
+.whitetext {
+    color: #fafafa;
+}
+
+/******************************Buttons******************************/
+
+.btn {
     border-color: #f05365;
     font-family: "Roboto", sans-serif;
+    color: #fafafa;
     font-size: 20px;
     font-weight: 500;
     max-height: 50px;
     margin-top: 35px;
 }
 
-.btn-success>a {
+.btn>a {
     color:#fafafa;
     text-decoration: none;
 }
 
-.btn-success:hover {
+.btn:hover {
     border-color: #fabc2a;
     background-color: #fabc2a;
+    color:#fafafa;
 }
+
+.btnwide {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.btnsmall {
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+/******************************HEADER*******************************/
+
+
 
 
 .navbar-brand > img {
     max-height: 100px;
     max-width: 100px;
     padding: 10px;
-}
-
-
-.mainheading {
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    /*text-transform: uppercase;*/
-    color: #191919;
-    font-size: 35px;
 }
 
 /******************************NAVBAR*******************************/
@@ -128,27 +172,11 @@
     position: relative;
 }
 
-.opaque-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.1);
-}
-
 .block-divider {
     width: 150px;
     height: 5px;
     border: 0;
     background-color: #38405F;
-}
-
-.image-header {
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    color: #191919;
-    font-size: 35px;
 }
 
 .jumbotron {
@@ -178,9 +206,9 @@
     background-color: #fabc2a;
 }
 
-/***********************************Features********************************/
+/***********************************Information Section********************************/
 
-.container-features {
+.container-information {
     padding-top: 30px;
     padding-bottom: 30px;
     text-align: center;
@@ -241,17 +269,12 @@
     margin-bottom: 50px;
 }
 
+/***********************************FOOTER********************************/
+
 .footercontent {
     padding-top: 20px;
     padding-bottom: 20px;
     text-align: center;
-}
-
-.footercontent>h2 {
-    font-family: "Roboto", sans-serif;
-    font-weight: 600;
-    color: #fafafa;
-    font-size: 20px;
 }
 
 .footercontent>p {
@@ -262,17 +285,6 @@
     margin-bottom: 1px;
 }
 
-.footercontent>p>a {
-    color: #fafafa;
-}
-
-.footercontent>h2>a {
-    color: #fafafa;
-}
-
-.footercontent>h2>a:hover {
-    color:rgba(240,83,101,0.85);
-}
 .googlemap {
     padding-top: 30px;
     padding-right: 20px;
@@ -282,10 +294,14 @@
         background-color: #fafafa;
 }
 
+.pinkhover:hover {
+    color: #f05365;
+}
+
 /***********************************Mobile Content Adjustment********************************/
 
 @media (max-width: 767.98px) {
-    .mainheading {
+    .largeheading {
     font-size: 25px;
 }
 
@@ -314,7 +330,7 @@
 
 
 @media (max-width: 575.98px) { 
-.mainheading {
+.largeheading {
     font-size: 20px;
 }
 
@@ -332,8 +348,8 @@
  }
 
 @media (max-width: 400.98px) { 
-.mainheading {
-    font-size: 20px;
+.largeheading {
+    font-size: 18px;
 }
 
 .navbar-brand > img {
