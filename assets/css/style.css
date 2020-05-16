@@ -6,6 +6,10 @@
     margin: 0;
 }
 
+.container {
+    padding:0;
+}
+
 a {
     text-decoration: none;
 }
@@ -30,6 +34,19 @@ a:hover {
 
 /******************************General Heading and Text Styles*******************************/
 
+body {
+    font-family: "Roboto", sans-serif;
+    text-align: justify;
+    font-size: 16px;
+}
+
+.titleheading {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    color: #252a3f;
+    font-size: 35px;
+}
+
 .largeheading {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
@@ -53,6 +70,26 @@ a:hover {
 
 .whitetext {
     color: #fafafa;
+}
+
+.darktext {
+    color: #252a3f;
+}
+
+.mediumtext {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.smalltext {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.bold {
+    font-weight: 700;
 }
 
 /******************************Buttons******************************/
@@ -81,6 +118,7 @@ a:hover {
 .btnwide {
     padding-left: 20px;
     padding-right: 20px;
+    margin-top: 25px;
 }
 
 .btnsmall {
@@ -88,10 +126,38 @@ a:hover {
     margin-top: 15px;
 }
 
-/******************************HEADER*******************************/
+/******************************Blockdividers******************************/
 
+.jumbo-block-divider {
+    width: 90%;
+    height: 2px;
+    border: 0;
+    background-color: #38405F;
+}
 
+/**code below for hr fade styling taken from https://codepen.io/ibrahimjabbari/pen/ozinB**/
+.block-divider {
+    width: 250px;
+    border: 0; 
+    height: 2px; 
+    background-image: -webkit-linear-gradient(left, #fafafa, #38405F, #fafafa);
+    background-image: -moz-linear-gradient(left, #fafafa, #38405F, #fafafa);
+    background-image: -ms-linear-gradient(left, #fafafa, #38405F, #fafafa);
+    background-image: -o-linear-gradient(left, #fafafa, #38405F, #fafafa); 
+}
+.wide-block-divider {
+    width: 75%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 
+.block-divider-white {
+    background-image: -webkit-linear-gradient(left, #38405F, #fafafa, #38405F);
+    background-image: -moz-linear-gradient(left, #38405F, #fafafa, #38405F);
+    background-image: -ms-linear-gradient(left, #38405F, #fafafa, #38405F);
+    background-image: -o-linear-gradient(left, #38405F, #fafafa, #38405F);
+}
+/******************************HEADER&NAVBAR*******************************/
 
 .navbar-brand > img {
     max-height: 100px;
@@ -99,7 +165,6 @@ a:hover {
     padding: 10px;
 }
 
-/******************************NAVBAR*******************************/
 .container-fluid {
     padding: 0;
 }
@@ -149,12 +214,7 @@ a:hover {
     font-weight: 600;
 }
 
-.navbar-toggler {
-    margin: auto;
-}
-
 /***********************************HERO IMAGE********************************/
-
 
 .heroimage {
     min-height: 500px;
@@ -172,38 +232,11 @@ a:hover {
     position: relative;
 }
 
-.block-divider {
-    width: 150px;
-    height: 5px;
-    border: 0;
-    background-color: #38405F;
-}
-
 .jumbotron {
     background-color: rgba(120,161,187,0.5);
-    border-radius: .3rem;
-}
-
-.jumbotext {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    color: #191919;
-    font-size: 20px;
-}
-
-.btn-call {
-    border-color: #f05365;
-    font-family: "Roboto", sans-serif;
-    color: #fafafa;
-    font-size: 20px;
-    font-weight: 500;
-    max-height: 50px;
-    margin-top: 10px;
-}
-
-.btn-call:hover {
-    border-color: #fabc2a;
-    background-color: #fabc2a;
+    border-radius: .5rem;
+    width: 70%;
+    margin: auto;
 }
 
 /***********************************Information Section********************************/
@@ -212,16 +245,6 @@ a:hover {
     padding-top: 30px;
     padding-bottom: 30px;
     text-align: center;
-}
-
-.btn-pink {
-    background-color: #f05365;
-    color: #fafafa;
-}
-
-.btn-pink:hover {
-    border-color: #fabc2a;
-    background-color: #fabc2a;
 }
 
 /***********************************About Content********************************/
@@ -235,7 +258,7 @@ a:hover {
     width: 50%;
 }
 
-.headshot>img {
+.headshot {
     display:block;
     margin: auto;
     width:300px;
@@ -263,108 +286,7 @@ a:hover {
     margin-bottom: 50px;
 }
 
-.wide-block-divider {
-    width: 75%;
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-
-/***********************************FOOTER********************************/
-
-.footercontent {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    text-align: center;
-}
-
-.footercontent>p {
-    font-family: "Exo", sans-serif;
-    font-weight: 400;
-    color: #fafafa;
-    font-size: 15px;
-    margin-bottom: 1px;
-}
-
-.googlemap {
-    padding-top: 30px;
-    padding-right: 20px;
-}
-
-.block-divider-white {
-        background-color: #fafafa;
-}
-
-.pinkhover:hover {
-    color: #f05365;
-}
-
-/***********************************Mobile Content Adjustment********************************/
-
-@media (max-width: 767.98px) {
-    .largeheading {
-    font-size: 25px;
-}
-
-.navbar-brand > img {
-    max-height: 70px;
-    max-width: 70px;
-    padding: 10px;
-}
-
-.googlemap {
-    padding-top: 20px;
-    padding-right: 10px;
-}
-
-.nav-item {
-    width: 100%;
-    margin: auto;
-}
-
-.locationfooter {
-    padding-right: 65px;
-    padding-left: 65px;
-}
-
-}
-
-
-@media (max-width: 575.98px) { 
-.largeheading {
-    font-size: 20px;
-}
-
-.navbar-brand > img {
-    max-height: 60px;
-    max-width: 60px;
-    padding: 5px;
-}
-
-.locationfooter {
-    padding-right: 30px;
-    padding-left: 30px;
-}
-
- }
-
-@media (max-width: 400.98px) { 
-.largeheading {
-    font-size: 18px;
-}
-
-.navbar-brand > img {
-    max-height: 60px;
-    max-width: 60px;
-    padding: 5px;
-}
-
-.locationfooter {
-    padding-right: 0px;
-    padding-left: 0px;
-}
-
- }
-
+/***********************************Location Page Content Styling********************************/
 
 .container-location {
     padding-top: 50px;
@@ -389,3 +311,121 @@ a:hover {
     color: #181818;
     font-size: 18px;
 }
+
+/***********************************FOOTER********************************/
+
+.footercontent {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.footercontent>p {
+    font-family: "Exo", sans-serif;
+    font-weight: 400;
+    color: #fafafa;
+    font-size: 15px;
+    margin-bottom: 1px;
+}
+
+.googlemap {
+    padding-top: 30px;
+    padding-right: 20px;
+}
+
+.pinkhover:hover {
+    color: #f05365;
+}
+
+
+/***********************************Mobile Content Adjustment********************************/
+
+
+/**Medium & below**/
+@media (max-width: 991.98px) {
+
+.jumbotron {
+    width: 100%;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.nav-item {
+    width: 100%;
+    margin: auto;
+}
+
+.headshot {
+    width:280px;
+    height:280px;
+}
+
+}
+
+/**Small & Below**/
+@media (max-width: 767.98px) {
+.titleheading {
+    font-size: 30px;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    text-align: justify;
+    font-size: 15px;
+}
+
+.navbar-brand > img {
+    max-height: 70px;
+    max-width: 70px;
+    padding: 10px;
+}
+
+.locationfooter {
+    padding-right: 65px;
+    padding-left: 65px;
+}
+
+}
+
+/**Extra Small & Below**/
+
+@media (max-width: 575.98px) { 
+.titleheading {
+    font-size: 25px;
+}
+
+.navbar-brand > img {
+    max-height: 60px;
+    max-width: 60px;
+    padding: 5px;
+}
+
+.locationfooter {
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+ }
+
+/**IPhone 5 Styling**/
+@media (max-width: 400.98px) { 
+
+.navbar-brand > img {
+    max-height: 60px;
+    max-width: 60px;
+    padding: 5px;
+}
+
+.locationfooter {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.headshot {
+    width:270px;
+    height:270px;
+}
+
+ }
+
