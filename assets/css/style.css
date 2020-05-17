@@ -37,7 +37,7 @@ a:hover {
 body {
     font-family: "Roboto", sans-serif;
     text-align: justify;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .titleheading {
@@ -384,7 +384,7 @@ body {
 body {
     font-family: "Roboto", sans-serif;
     text-align: justify;
-    font-size: 15px;
+    font-size: 16px;
 }
 
 .navbar-brand > img {
@@ -417,6 +417,10 @@ body {
 
 .mediumheading {
     font-size: 20px;
+}
+
+.mediumtext {
+    font-size: 16px;
 }
 
 .navbar-brand > img {
