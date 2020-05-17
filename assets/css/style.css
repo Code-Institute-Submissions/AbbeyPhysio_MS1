@@ -377,7 +377,7 @@ body {
 
 /**Small & Below**/
 @media (max-width: 767.98px) {
-.titleheading {
+.titleheading, .largeheading {
     font-size: 30px;
 }
 
@@ -404,6 +404,10 @@ body {
 
 @media (max-width: 575.98px) { 
 .titleheading {
+    font-size: 25px;
+}
+
+.largeheading {
     font-size: 25px;
 }
 
