@@ -403,12 +403,20 @@ body {
 /**Extra Small & Below**/
 
 @media (max-width: 575.98px) { 
+body {
+    text-align: left;
+}
+
 .titleheading {
     font-size: 25px;
 }
 
 .largeheading {
     font-size: 25px;
+}
+
+.mediumheading {
+    font-size: 20px;
 }
 
 .navbar-brand > img {
