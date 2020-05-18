@@ -137,6 +137,7 @@ body {
 }
 
 /**code below for hr fade styling taken from https://codepen.io/ibrahimjabbari/pen/ozinB**/
+
 .block-divider {
     width: 250px;
     border: 0; 
@@ -146,6 +147,7 @@ body {
     background-image: -ms-linear-gradient(left, #fafafa, #38405F, #fafafa);
     background-image: -o-linear-gradient(left, #fafafa, #38405F, #fafafa); 
 }
+
 .wide-block-divider {
     width: 75%;
     margin-top: 50px;
@@ -158,6 +160,7 @@ body {
     background-image: -ms-linear-gradient(left, #38405F, #fafafa, #38405F);
     background-image: -o-linear-gradient(left, #38405F, #fafafa, #38405F);
 }
+
 /******************************HEADER&NAVBAR*******************************/
 
 .navbar-brand > img {
@@ -299,6 +302,19 @@ body {
     margin: auto;
 }
 
+/**********************************Contact Page Content Styling********************************/
+
+.container-contact {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.contactform {
+    background-color: rgba(120,161,187,0.5);
+    padding: 30px;
+    border-radius: 10px;
+}
+
 /***********************************Location Page Content Styling********************************/
 
 .container-location {
@@ -318,7 +334,6 @@ body {
     padding-top: 30px;
     padding-bottom: 30px;
 }
-
 
 /***********************************FOOTER********************************/
 
@@ -345,11 +360,10 @@ body {
     color: #f05365;
 }
 
-
 /***********************************Mobile Content Adjustment********************************/
 
-
 /**Medium & below**/
+
 @media (max-width: 991.98px) {
 
 .jumbotron {
@@ -372,6 +386,7 @@ body {
 }
 
 /**Small & Below**/
+
 @media (max-width: 767.98px) {
 .titleheading, .largeheading {
     font-size: 30px;
@@ -429,6 +444,7 @@ body {
     padding-right: 30px;
     padding-left: 30px;
 }
+
 #map {
     width: 100%;
     height: 400px;
@@ -437,6 +453,7 @@ body {
 }
 
 /**IPhone 5 Styling**/
+
 @media (max-width: 400.98px) { 
 
 .navbar-brand > img {

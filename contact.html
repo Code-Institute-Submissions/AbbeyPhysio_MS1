@@ -2,7 +2,8 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Abbey Physiotherapy | Find Us</title>
+    <title>Abbey Physiotherapy | Contact Us</title>
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css"/>
@@ -44,15 +45,15 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="services.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
                             <div class="dropdown-menu bluebackground" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item" href="services.html#PhysioTreatments">Physiotherapy</a>
-                                <a class="dropdown-item" href="services.html#PersonalTraining">Personal Training</a>
-                                <a class="dropdown-item" href="services.html#YogaPilates">Pilates & Yoga Classes</a>
+                                <a class="dropdown-item" href="services.html">Physiotherapy</a>
+                                <a class="dropdown-item" href="services.html">Personal Training</a>
+                                <a class="dropdown-item" href="services.html">Pilates & Yoga Classes</a>
                             </div>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item active">
                             <a class="nav-link" href="contact.html">Contact Us</a>
                         </li>
-                        <li class="nav-item active">
+                        <li class="nav-item">
                             <a class="nav-link" href="location.html">Find Us</a>
                         </li>
                     </ul>
@@ -60,42 +61,35 @@
             </nav>
         </div>
     </header>
-    <!--Main content of page-->
+    <!--Main Body of Webpage-->
     <main>
         <section>
-            <div class="container container-location">
+            <div class="container container-contact">
                 <div class="row">
-                    <!--Direction to Clinic-->
-                    <div class="col-12 col-lg-8">
-                        <h3 class="largeheading text-left">Directions<i class="fas fa-route ml-2"></i></h3>
-                        <p class="text-left">From Clane Village turn onto the Properous Road, after 100m we are on the left hand side just after the entrance to Aldi next to the bus stop.</p>
-                        <p class="text-left">From Prosperous travel towards Clane Village and we are on the right hand side 300m after the GAA grounds, immediately before the entrance to Aldi.</p>
-                        <p class="text-left">There is parking available on-street directly in front of the practice or alternatively in Aldi car park which is a short walk away.</p>
+                    <div class="col-12">
+                        <h3 class="largeheading">Contact Us</h3>
+                        <p>For any queries, additional information on our services or advice please feel free to send us a message using the form below.</p>
+                        <p>Alternative please call <strong>086 303 9372</strong> or email <strong>abbeyphysioclane@gmail.com</strong></p>
                     </div>
-                    <!--Address in larger devices-->
-                    <div class="d-none d-lg-block col-lg-4">
-                        <div class="bold mediumtext address">
-                            <h3 class="largeheading mb-3">Address<i class="fas fa-address-card ml-2"></i></h3>
-                            <p>Unit 4 Yew Tree,<br>
-                            Prosperous Road,<br>
-                            Clane,<br>
-                            Kildare.</p>
-                        </div>
-                    </div>                    
                 </div>
-                <hr class="block-divider wide-block-divider">
-                <div class="row">
-                    <!--Code Taken from Google Developer Tutorials and adjusted. https://developers.google.com/maps/documentation/javascript/adding-a-google-map-->
-                    <div class="col-12 ">
-                        <div id="map">
-                            <script>
-                                function initMap() {
-                                var abbey = {lat: 53.290435, lng: -6.687855};
-                                var map = new google.maps.Map(
-                                    document.getElementById('map'), {zoom: 15, center: abbey});
-                                var marker = new google.maps.Marker({position: abbey, map: map});
-                                }
-                            </script>
+                <div class="row bg-color-contact">
+                    <div class="col">    
+                        <div class="center-form contactform">
+                            <form>
+                                <h3 class="smallheading mt-2">First Name</h3>
+                                <input type="text" name="firstname" id="firstname" class="form-control" placeholder="First Name" required>
+                                <h3 class="smallheading mt-2">Last Name</h3>
+                                <input type="text" name="lastname" id="lastname" class="form-control" placeholder="Last Name" required>
+                                <h3 class="smallheading mt-2">Email</h3>
+                                <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" required>
+                                <h3 class="smallheading mt-2">Your Message</h3>
+                                <textarea rows="8" name="query" id="query" class="form-control" placeholder="Write message here.." required></textarea>
+                                <div class="form-row text-center">
+                                    <div class="col">
+                                        <button type="submit" class="btn btnwide pinkbackground">Send Message</button>
+                                    </div>    
+                                </div>
+                            </form>
                         </div>
                     </div>
                 </div>
@@ -141,12 +135,8 @@
             </div>
         </div>
     </footer>
-    <!--Javascripts-->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDRP4jWYp5GDpj8jGRjTmTacUs0xSxlu60&callback=initMap">
-    </script>
   </body>
 </html>
