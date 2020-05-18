@@ -163,6 +163,17 @@ body {
 
 /******************************HEADER&NAVBAR*******************************/
 
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+main {
+    margin-top: 150px;
+}
+
 .navbar-brand > img {
     max-height: 100px;
     max-width: 100px;
@@ -216,6 +227,10 @@ body {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 600;
+}
+
+.nav-link {
+    padding: 5px;
 }
 
 /***********************************HERO IMAGE********************************/
@@ -398,6 +413,10 @@ body {
     font-size: 16px;
 }
 
+main {
+    margin-top: 120px;
+}
+
 .navbar-brand > img {
     max-height: 70px;
     max-width: 70px;
@@ -416,6 +435,10 @@ body {
 @media (max-width: 575.98px) { 
 body {
     text-align: left;
+}
+
+main {
+    margin-top: 110px;
 }
 
 .titleheading {
