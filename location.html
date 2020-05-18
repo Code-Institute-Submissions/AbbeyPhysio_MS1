@@ -84,9 +84,16 @@
                     <hr class="block-divider wide-block-divider">
                     <div class="row">
                         <div class="col-12 ">
-                            <a href="https://www.google.com/maps/place/Abbey+Physio+Clinic+Clane/@53.2902524,-6.6904256,17z/data=!4m5!3m4!1s0x0:0x6c788d5172ac817a!8m2!3d53.2899766!4d-6.6888914">
-                            <img alt="Google Maps" class="largegooglemaps" src="assets/images/GoogleMap.png">
-                            </a>
+                            <div id="map">
+                                <script>
+                                    function initMap() {
+                                    var abbey = {lat: 53.290435, lng: -6.687855};
+                                    var map = new google.maps.Map(
+                                        document.getElementById('map'), {zoom: 15, center: abbey});
+                                    var marker = new google.maps.Marker({position: abbey, map: map});
+                                    }
+                                </script>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -134,5 +141,8 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDRP4jWYp5GDpj8jGRjTmTacUs0xSxlu60&callback=initMap">
+    </script>
   </body>
 </html>
