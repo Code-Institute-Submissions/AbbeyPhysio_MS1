@@ -86,7 +86,20 @@
                                 <textarea rows="8" name="query" id="query" class="form-control" placeholder="Write message here.." required></textarea>
                                 <div class="form-row text-center">
                                     <div class="col">
-                                        <button type="submit" class="btn btnwide pinkbackground">Send Message</button>
+                                        <!--Code taken from Modal examples in Bootstrap Documentation-->
+                                        <button type="button" class="btn btnwide pinkbackground" data-toggle="modal" data-target=".bd-example-modal-sm">Send Message</button>
+                                        <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog modal-dialog-centered modal-lg">
+                                                <div class="modal-content mediumheading">
+                                                    <div class="modal-body">
+                                                        Message sent! Someone from our team will contact you shortly.
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btnwide pinkbackground m-auto" data-dismiss="modal">Close</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>    
                                 </div>
                             </form>
