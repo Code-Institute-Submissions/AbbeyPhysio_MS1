@@ -320,14 +320,22 @@ main {
 /**********************************Contact Page Content Styling********************************/
 
 .container-contact {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 40px;
+    padding-bottom: 30px;
 }
+
 
 .contactform {
     background-color: rgba(120,161,187,0.5);
-    padding: 30px;
+    padding: 20px;
     border-radius: 10px;
+}
+
+#booking::before {
+    display: block;
+    content: "";
+    height: 150px;
+    margin: -150px 0 0;
 }
 
 /***********************************Location Page Content Styling********************************/
