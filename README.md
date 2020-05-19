@@ -25,7 +25,7 @@ The business goal of the website is provide an increased presence online, simila
 
 I want the website to look professional and appropriate for type of business, i.e. medical type parctice. I read about colour psychology and the preferences of different users for different types of websites and decided on a blue/white colour scheme with accent colours for callout/emphasis. I choose blue as its perceived as safe, dependable and trustworthy colour and is preferred by both men and women. The palette of colours used on the website including accent colours is outlined below. 
 
-![image info](.assets/images/colourpalette.png)
+![image info](./assets/images/colourpalette.png)
 
 ## Features
 
