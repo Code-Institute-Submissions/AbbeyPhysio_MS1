@@ -72,7 +72,20 @@
                             <h1 class="largeheading">Covid-19 Update<i class="fas fa-people-arrows ml-3"></i></h1>
                             <hr class="jumbo-block-divider">
                             <p class="darktext mediumtext">Abbey Physio will be reopening on a phased basis from May 11th. We will be following all guidelines issued by the HSE to minimise any risk to our patients and staff. For patients isolating or cocooning video consultations are also available. Get in touch for more information.</p>
-                            <div class="btn btnwide pinkbackground"><a href="contact.html">Call Us<i class="fas fa-phone ml-3"></i></a></div>
+                            <!--Code taken from Modal example in Bootstrap Documentation-->
+                            <button type="button" class="btn btnwide pinkbackground" data-toggle="modal" data-target=".bd-example-modal-sm">Call Us<i class="fas fa-phone ml-3"></i></button>
+                            <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered modal-sm">
+                                    <div class="modal-content mediumheading">
+                                    <div class="modal-body">
+                                        Call: 086 303 9372
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btnwide pinkbackground m-auto" data-dismiss="modal">Close</button>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>    
