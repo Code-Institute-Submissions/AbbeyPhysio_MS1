@@ -37,28 +37,63 @@ All wireframes created for the project can be found [here](https://github.com/al
 
 ## Features
 
-#### Existing Features
+### Existing Features
 
+#### Header, Navbar and Footer
 
-Every page shares the same heaver, navbar and footer with the active tab changed to reflect the current page. The header and navbar are fixed to ensure visibility and easy navigation. There are callout buttons to the contact page in the header which disappear to save space on smaller screens. The navbar also collapses into hamburger menu on smaller screens. The navbar contains a dropdown menu to the subsections of the services page.
+Every page shares the same header, navbar and footer with the active tab changed to reflect the current page. Below outlines the features included in the header and navbar.
 
-The footer contains 3 subsectiosn with details on opening hours, contact details and location. Contact details and location are key pieces of information to be made accessible to the user so link to each are included throughout the website. There is mini map in the footer which leads to google maps link also.
+- Company logo and name link back to home page;
+- Two call to action 'buttons' linking to contact and booking form (only visible on larger devices as clutter smaller devices);
+- Active page highlighted in navbar;
+- dropdown menu for subsection of services page;
+- Accent colour on hovering over nav items;
+- Collapsed hamburger navbar on smaller devices. 
 
-On the home page, index.html, there is a hero image with information box about current services during Covid-19 pandemic, this is important information currently so has pride of place. Below are three sub sections which lead to the other pages. 
+Within the footer the following us included.
 
-The about.html page contains three subsections with the history of the practice and brief bio on the physio and personal trainer. 
+- Opening hours;
+- Contact details with links to the contact page;
+- 'Find us' info with address and google map linking to the Find Us webpage. 
 
-The services page includes an overview of physiotreatments available and conditions treated, this is contained within a collapsable menu as to not have to much text unncessarily visible on the page. There is also a section on personal training and yoga/pilates with attracttive imagery with both. 
+#### index.html
 
-The contact page contains details of email and phone number and a contact for sending email queries. 
+Within the home page the following features are included (as well as the above):
 
-The location page includes an overview of directions a card with address, visible on larger devices, and a interactive google maps api with marker. 
+- Hero image;
+- Callout with important information related to recent reopening;
+- 'Call Us' button which tiggers a modal call out with phone number;
+- Three subsections providing brief overview of the 3 of the other pages with links to read more;
 
-#### Features to be Added
+#### about.html
 
-Because of my limited knowledge at the moment the contact form doesn't send any information, I'd like to connect this to the business email in the future. 
+- Brief history of the clinic history with link to services page;
+- Bio of the head phyio with circular stylised image;
+- Bio of personal trainer with image;
 
-The 'Book Appointment' callout in the header also just leads to the contact page, ideally this will connect to an online booking system in the future.
+#### services.html
+
+- Overview of physio treatments offered for a range of conditions;
+- Conditions presented in a collapsable text boxes as not to overwhelm page with unneccessary text;
+- Overview of personal training and yoga services with appropriate images.
+
+#### contact.html
+
+- form to send query with required fields;
+- modal popup when submitted to with 'message sent alert;
+- form for booking app with date picker and time choices and another popup after submitting;
+
+#### location.html
+
+- directions to clinic;
+- coloured card with address (only visible on larger devices to simply UX on mobile);
+- interactive google maps api with marker on clinic location. 
+
+### Future Features
+
+- 'Call us' button on home page hero image should link to actual call function on mobile devices;
+-  Forms should connect to email;
+-  Booking form is currently for show only with unconstrainted dates and random times shown this could be connected to an online booking system in the future.
 
 ## Technologies Used
 
@@ -66,25 +101,28 @@ The 'Book Appointment' callout in the header also just leads to the contact page
 
 * [HTML5](https://en.wikipedia.org/wiki/HTML5)
 * [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
-* [JavaScript](https://www.javascript.com/) (through bootstrap framework and google api)
+
+A small about of [JavaScript](https://www.javascript.com/) was used to implement Google Maps Api on location page. This was copied from Google developer tools [tutorial](https://developers.google.com/maps/documentation/javascript/adding-a-google-map).
 
 ### Frameworks, Libraries and Programs Used
 
-- [Bootstrap v4.5.0](https://getbootstrap.com/) - Used for the responsove layout as well as custom components such as image carousel, navigation bar, footer, cards and collapse element.
-- [jquery](https://jquery.com/) - Used in some of the clickable elements such as collapsable 'hamburger' nav bar and collapse element.
-- [popper.js](https://popper.js.org/) - Used in some of the clickable elements such as collapsable 'hamburger' nav bar and collapse element.
-- [Font Awesome](https://fontawesome.com/) - Font Awesome was used to add social icons and complement the design.
-- [Google Fonts](https://fonts.google.com/) - Google Fonts was used to import 'Exo' and 'PT Sarif' fonts in the main.css stylesheet.
+- [Bootstrap v4.5.0](https://getbootstrap.com/) - Used for the responsove layout as well as custom components such as forms, modal popups, navigation bar, footer, cards and collapsable element.
+- [jquery](https://jquery.com/) - Used in some of the clickable elements such as collapsable 'hamburger' nav bar.
+- [popper.js](https://popper.js.org/) - Used in some of the clickable elements such as collapsable 'hamburger' nav bar.
+- [Font Awesome](https://fontawesome.com/) - Font Awesome was used to add social icons throughout the site and improve overall design and legibility;
+- [Google Fonts](https://fonts.google.com/) - Google Fonts was used to import 'Roboto' and 'Exo' fonts in the style.css stylesheet.
 - [Git](https://git-scm.com/) - Git was used to allow for tracking of any changes in the code and for the version control.
 - [GitPod](https://www.gitpod.io/) - GitPod, conected to GitHub, hosted the coding space and allowed the projected to be commited to the Github repository.
-- [Github](https://github.com/) - GitHub is used to host the project files and publish the live website by using Git Pages.
+- [Github](https://github.com/) - GitHub is used to host the repository and publish the live website by using Git Pages.
 - [Google Chrome developer tools](https://developers.google.com/web/tools/chrome-devtools) for testing and troubleshooting.
 - [W3C Markup Validation](https://validator.w3.org/) used to validate HTML.
 - [W3C CSS validation](https://jigsaw.w3.org/css-validator/) used to validate CSS.
 
 ## Testing
 
-A summary files of all testing undertaken can be found here (to be updated!)
+#### Code Validation
+
+Each page was through the W3C HTMl and the stylesheet through the CSS validator. 
 
 #### Browser Compatibility
 

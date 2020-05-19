@@ -16,6 +16,7 @@ a {
 
 a:hover {
     text-decoration: none;
+    color: #252a3f;
 }
 
 /******************************BACKGROUND COLOURS*******************************/
@@ -111,8 +112,8 @@ body {
 }
 
 .btn:hover {
-    border-color: #fabc2a;
-    background-color: #fabc2a;
+    border-color: #03A89E;
+    background-color: #03A89E;
     color:#fafafa;
 }
 
@@ -238,7 +239,7 @@ main {
 .heroimage {
     min-height: 500px;
 
-    background: url("../images/PhysioBanner.jpg") no-repeat;
+    background: url("../images/physiotreatmentbanner.jpg") no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -280,9 +281,6 @@ main {
     height:300px;
     object-fit:cover;
     border-radius: 50%;
-    border-color: #f05365;
-    border-style: solid;
-    border-width: 5px;
 }
 
 /***********************************Services Content********************************/
