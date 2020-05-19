@@ -122,7 +122,18 @@ A small about of [JavaScript](https://www.javascript.com/) was used to implement
 
 #### Code Validation
 
-Each page was through the W3C HTMl and the stylesheet through the CSS validator. 
+Each page was through the W3C HTML and the stylesheet through the CSS validator. The following errors were flagged at corrected:
+
+- Originally had anchors within buttons in the header which produced and error change to style anchors to look like buttons instead;
+- Placeholder for form type date;
+- Incorrect charachter escape on whitespace, removed this whitespace and created gaps with margins instead;
+- arialabelledby related to no ID, changed this to arialabel to solve.
+
+There was additional warning in relation to the date which flagged the date type would not be recognised on all browsers types. I have left this for now as it required use of code I didn't yet understand. There were no errors or warning flagged in the CSS validator. 
+
+
+
+
 
 #### Browser Compatibility
 
