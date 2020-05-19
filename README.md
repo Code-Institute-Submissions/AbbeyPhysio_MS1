@@ -1,31 +1,34 @@
 # Abbey physiotherapy
 
-##Code Institute - Milestone Project One: User Centric Frontend Development
+### Code Institute - Milestone Project One: User Centric Frontend Development
 
 For my project I decided to build a potential website for my brother's business, a private physiotherapy clinic. He currently has just a landing page and wanted to increase the business's online presence.
  
 ## UX
 
-### Project Objective
+#### Project Objective
 
 The business goal of the website is provide an increased presence online, similar or better than competitors, providing information to patients and potential attract new patients. 
  
-### User Stories
+#### User Stories
 
-*As the business owner, I want to promote my business online so that I can attract new customers
-*As a user, I want to read about what treatments are available so I can decide if it's the correct treatment for my injury
-*As a user, I want to contact number for the clinic so that I can arrange an appointment
-*As a user, I want to send a query to the clinic to find out more information
-*As a user, I want more information on the location so I can easily find the clinic when visiting
-*As a user, I want to find out where the clinic is so I can plan where to park when visiting
-*As a user, I want to know about the physio's experience so I can decide if they are the right physio for me
-*As a user, I want to information on the classes offered so I can see if the time suit me
+*As the business owner, I want to promote my business online so that I can attract new customers.
+*As a user, I want to read about what treatments are available so I can decide if it's the correct treatment for my injury.
+*As a user, I want to contact number for the clinic so that I can arrange an appointment.
+*As a user, I want to send a query to the clinic to find out more information.
+*As a user, I want more information on the location so I can easily find the clinic when visiting.
+*As a user, I want to find out where the clinic is so I can plan where to park when visiting.
+*As a user, I want to know about the physio's experience so I can decide if they are the right physio for me.
+*As a user, I want to information on the classes offered so I can see if the time suit me.
 
-### Design Choices
+#### Design Choices
 
-I want the website to look professional and appropriate for type of business, i.e. medical type parctice. I read about colour psychology and the preferences of different users for different types of websites and decided on a blue/white colour scheme with accent colours for callout/emphasis. I choose blue as its perceived as safe, dependable and trustworthy colour and is preferred by both men and women. The palette of colours used on the website including accent colours is outlined below. 
+I want the website to look professional and appropriate for type of business, i.e. medical type practice. I read about colour psychology and the preferences of different users for different types of websites and decided on a blue/white colour scheme with accent colours for callout/emphasis. I choose blue as its perceived as safe, dependable and trustworthy colour and is preferred by both men and women. The palette of colours used on the website including accent colours is outlined below. 
 
 ![image info](./assets/images/colourpalette.png)
+
+In terms of the overall design, I wanted the website to feel modern but not overally stylised or minimalist. The cohort of the business client base is older so I wanted something easily accessible and readable with obvious call to action (i.e contact or email business). I 
+
 
 ## Features
 
