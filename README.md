@@ -12,14 +12,14 @@ The business goal of the website is provide an increased presence online, simila
  
 #### User Stories
 
-*As the business owner, I want to promote my business online so that I can attract new customers.
-*As a user, I want to read about what treatments are available so I can decide if it's the correct treatment for my injury.
-*As a user, I want to contact number for the clinic so that I can arrange an appointment.
-*As a user, I want to send a query to the clinic to find out more information.
-*As a user, I want more information on the location so I can easily find the clinic when visiting.
-*As a user, I want to find out where the clinic is so I can plan where to park when visiting.
-*As a user, I want to know about the physio's experience so I can decide if they are the right physio for me.
-*As a user, I want to information on the classes offered so I can see if the time suit me.
+* As the business owner, I want to promote my business online so that I can attract new customers.
+* As a user, I want to read about what treatments are available so I can decide if it's the correct treatment for my injury.
+* As a user, I want to contact number for the clinic so that I can arrange an appointment.
+* As a user, I want to send a query to the clinic to find out more information.
+* As a user, I want more information on the location so I can easily find the clinic when visiting.
+* As a user, I want to find out where the clinic is so I can plan where to park when visiting.
+* As a user, I want to know about the physio's experience so I can decide if they are the right physio for me.
+* As a user, I want to information on the classes offered so I can see if the time suit me.
 
 #### Design Choices
 
@@ -27,10 +27,22 @@ I want the website to look professional and appropriate for type of business, i.
 
 ![image info](./assets/images/colourpalette.png)
 
-In terms of the overall design, I wanted the website to feel modern but not overally stylised or minimalist. The cohort of the business client base is older so I wanted something easily accessible and readable with obvious call to action (i.e contact or email business). I 
+In terms of the overall design, I wanted the website to feel modern but not overally stylised or minimalist. The cohort of the business client base is older so I wanted something easily accessible and readable with obvious call to action (i.e contact or email business). The initial wireframe for the home page is shown below and while the design evolved during detailed design I think it still gives a flavour of the final website. 
 
+All wireframes created for the project can be found [here](https://github.com/allanahmurphy/AbbeyPhysio_MS1/wireframes). The wireframes were created using [Balsamiq](https://balsamiq.com/).  
+
+![image info](./wireframes/wireframelandingpage.png)
 
 ## Features
+Every page shares the same <header>, <nav> and <footer> with the active tab changed to reflect the current page. The header and navbar are fixed to ensure visibility and easy navigation. There are callout buttons to the contact page in the header which disappear to save space on smaller screens. The navbar also collapses into hamburger menu on smaller screens. The navbar contains a dropdown menu to the subsections of the services page.
+
+The footer contains 3 subsectiosn with details on opening hours, contact details and location. Contact details and location are key pieces of information to be made accessible to the user so link to each are included throughout the website. There is mini map in the footer which leads to google maps link also.
+
+On the home page, index.html, there is a hero image with information box about current services during Covid-19 pandemic, this is important information currently so has pride of place. Below are three sub sections which lead to the other pages. 
+
+The about.html page contains three subsections with the history of the practice and brief bio on the physio and personal trainer. 
+
+
 
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
  
