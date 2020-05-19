@@ -116,7 +116,8 @@ A small about of [JavaScript](https://www.javascript.com/) was used to implement
 - [Github](https://github.com/) - GitHub is used to host the repository and publish the live website by using Git Pages.
 - [Google Chrome developer tools](https://developers.google.com/web/tools/chrome-devtools) for testing and troubleshooting.
 - [W3C Markup Validation](https://validator.w3.org/) used to validate HTML.
-- [W3C CSS validation](https://jigsaw.w3.org/css-validator/) used to validate CSS.
+- [W3C CSS validation](https://jigsaw.w3.org/css-validator/) used to validate CSS
+- [tiny jpg](https://tinyjpg.com/) used to reduce hero image size.
 
 ## Testing
 
@@ -129,43 +130,58 @@ Each page was through the W3C HTML and the stylesheet through the CSS validator.
 - Incorrect charachter escape on whitespace, removed this whitespace and created gaps with margins instead;
 - arialabelledby related to no ID, changed this to arialabel to solve.
 
-There was additional warning in relation to the date which flagged the date type would not be recognised on all browsers types. I have left this for now as it required use of code I didn't yet understand. There were no errors or warning flagged in the CSS validator. 
-
-
-
-
+There was additional warning in relation to the date which flagged the date type would not be recognised on all browsers types. When tested it worked in each browser bar safari. There were no errors or warning flagged in the CSS validator. 
 
 #### Browser Compatibility
 
 The live website, hosted on gitpages, has been opened and tested on multiple browsers for responsives and intended appearance. Browers tested included:
 
 * Google Chrome
-* Opera
 * Safari
 * Microsoft Edge
 * Internet Explorer
 * Firefox
 
-### Language Validation
+Overall the website worked well and appeared as intended on different sizes across different browsers with the exception of IE where a number of elements where unexpectedly displaced. Firefox and IE were also slower than other browsers, I reduced the images sizes to improve this. Below is a summary of the browsers testing. 
 
-Each seperate page of the website was ran through [W3C Markup Validation](https://validator.w3.org/) & [W3C CSS validation](https://jigsaw.w3.org/css-validator/) to find any errors. One error in relation to the use of a ref within a button was flagged. This was removed and placed in a div styled as a button instead. 
+<img src="./assets/images/browerstest.jpg" width="100%" >
 
 ### Responsiveness
 
 The website has been tested across multiple screen sizes using [Google Chrome developer tools](https://developers.google.com/web/tools/chrome-devtools) for a range of screen sizes including:
 
-- iphone 5/SE,6,7,8, X and 6,7,8 plus for portrait and landscape.
-- Moto G4 and Samsung Galaxy S5
-- ipad and ipad pro
-- varying laptop sizes and screen sizes using responsiveness tool on developer tools. 
+- Moto G4
+- Galaxy S5
+- Pixel 2
+- Pixel 2 XL
+- iPhone 5 SE
+- iPhone 6/7/8
+- iPhone 6/7/8 Plus
+- iPhone X
+- iPad
+- iPad Pro
 
-The website was also opened and checked on Huaweu P10 and Samsung A20 mobile devices. 
+The screen was also adjusted through various sizes and breakpoints with the responsive option in developer tools. The website was also opened and checked on Huaweu P10 and Samsung A20 mobile devices as well as Dell xps 15 and Apple Macbook. The responsiveness was also tested on the browsers outlined above with no noted issues. Overall the website appeared as intended across each screen type. There some intial errors particularly on iPhone5 with overflows of titles and off center imagery. However, an additional media query was added to address less than 400px approximately. 
+
 
 ### User experience & Usability
 
-I also asked multiple users of different ages (family members) to open the devices on mobiles and laptop to sense check the layout, readability and usability of the site. 
+Multiple users of different ages (friends, family members, CI peer review group) were asked to open the devices on mobiles and laptop to sense check the layout, readability and usability of the site. Comments back included the below:
+
+- One user found initial colour chosen for button hover difficult to read (this was changed);
+- One user expected 'Call Us' to provide phone number instead of leading to contact page (this was updated to include pop up with phone number);
+- One user didn't like initial border circles (too PowerPoint 2003). I agreed in reflection and amended image styling. 
+- One user expected some event when hitting send message button on form even if forms weren't techically required to work. I addressed this by providing the popup boxes. 
+
+A thorough review was also done across all pages and links to ensure they were mapped correctly and no unexpected errors were thrown up. 
+
+### Overflow
+
+[Unicorn Revealer](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln/related) was also used to test all pages for overflows with none found. 
 
 ### Performance Testing
+
+
 
 ## Deployment
 
@@ -173,9 +189,7 @@ I also asked multiple users of different ages (family members) to open the devic
 
 ### Content
 
-
 ### Media
-
 
 ### Acknowledgements
 
