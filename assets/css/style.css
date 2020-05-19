@@ -331,13 +331,6 @@ main {
     border-radius: 10px;
 }
 
-#booking::before {
-    display: block;
-    content: "";
-    height: 150px;
-    margin: -150px 0 0;
-}
-
 /***********************************Location Page Content Styling********************************/
 
 .container-location {

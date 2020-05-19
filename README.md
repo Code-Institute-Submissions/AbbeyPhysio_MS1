@@ -2,15 +2,17 @@
 
 ### Code Institute - Milestone Project One: User Centric Frontend Development
 
-For my project I decided to build a potential website for my brother's business, a private physiotherapy clinic. He currently has just a landing page and wanted to increase the business's online presence.
+For my project I decided to build a template website for my brother's business, a private physiotherapy clinic. He currently has just a landing page and wants to increase the business's online presence. At the moment he relies on word of mouth and often has feedback from patients they couldn't find him online. 
+
+The live website can be accessed [here](https://allanahmurphy.github.io/AbbeyPhysio_MS1/)
  
 ## UX
 
 #### Project Objective
-
-The business goal of the website is provide an increased presence online, similar or better than competitors, providing information to patients and potential attract new patients. 
+The business goal of the website was provide an increased presence online, similar or better than those of competitors, providing information to patients and potentially attract new patients. 
  
 #### User Stories
+I created a number of user stories to help inform the requirements of the website, as detailed below. 
 
 * As the business owner, I want to promote my business online so that I can attract new customers.
 * As a user, I want to read about what treatments are available so I can decide if it's the correct treatment for my injury.
@@ -23,19 +25,21 @@ The business goal of the website is provide an increased presence online, simila
 
 #### Design Choices
 
-I want the website to look professional and appropriate for type of business, i.e. medical type practice. I read about colour psychology and the preferences of different users for different types of websites and decided on a blue/white colour scheme with accent colours for callout/emphasis. I choose blue as its perceived as safe, dependable and trustworthy colour and is preferred by both men and women. The palette of colours used on the website including accent colours is outlined below. 
+I wanted the website to look professional and appropriate for type of business, i.e. clinical practice. I read about [colour psychology](https://neilpatel.com/blog/psychology-of-color-and-conversions/) and the preferences of different users for different types of websites. Based on this I decided on a blue/white colour scheme with accent colours for calls to action/emphasis. I choose blue as its perceived as safe, dependable and trustworthy colour and is preferred by both men and women. The palette of colours used on the website including accent colours is outlined below. 
 
-![image info](./assets/images/colourpalette.png)
+<img src="./assets/images/colourpalette.png" width="100%" >
 
-In terms of the overall design, I wanted the website to feel modern but not overally stylised or minimalist. The cohort of the business client base is older so I wanted something easily accessible and readable with obvious call to action (i.e contact or email business). The initial wireframe for the home page is shown below and while the design evolved during detailed design I think it still gives a flavour of the final website. 
+In terms of the overall design, I wanted the website to feel modern but not overally stylised or minimalist. One of the main cohorts of the business's client base is older people so I wanted something easily accessible and readable with obvious calls to action (i.e contact or email business). The initial wireframe for the home page is shown below and while the design evolved during detailed design I think it still gives a strong sense of the final website. 
 
 All wireframes created for the project can be found [here](https://github.com/allanahmurphy/AbbeyPhysio_MS1/wireframes). The wireframes were created using [Balsamiq](https://balsamiq.com/).  
 
-![image info](./wireframes/wireframelandingpage.png)
+<img src="./wireframes/wireframelandingpage.png" width="50%" style="margin-left: 25%">
 
 ## Features
 
 #### Existing Features
+
+
 Every page shares the same heaver, navbar and footer with the active tab changed to reflect the current page. The header and navbar are fixed to ensure visibility and easy navigation. There are callout buttons to the contact page in the header which disappear to save space on smaller screens. The navbar also collapses into hamburger menu on smaller screens. The navbar contains a dropdown menu to the subsections of the services page.
 
 The footer contains 3 subsectiosn with details on opening hours, contact details and location. Contact details and location are key pieces of information to be made accessible to the user so link to each are included throughout the website. There is mini map in the footer which leads to google maps link also.
