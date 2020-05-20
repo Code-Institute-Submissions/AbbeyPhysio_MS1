@@ -2,14 +2,14 @@
 
 ### Code Institute - Milestone Project One: User Centric Frontend Development
 
-For my project I decided to build a template website for my brother's business, a private physiotherapy clinic. He currently has just a landing page and wanted to increase the business's online presence. At the moment he relies on word of mouth and often has feedback from patients they couldn't find him online. 
+For my project I decided to build a template website for my brother's business, a private physiotherapy clinic. He currently has just a landing page and wanted to increase the business's online presence. At the moment he relies on word of mouth and often has feedback from patients that they couldn't find him online. 
 
 The live website can be accessed [here](https://allanahmurphy.github.io/AbbeyPhysio_MS1/).
  
 ## UX
 
 #### Project Objective
-The business goal of the website was provide an increased presence online, similar or better than those of competitors, providing information to patients and potentially attract new patients. 
+The business goal of the website was to provide an increased presence online, similar to or better than that of competitors, providing information to patients and potentially attract new patients. 
  
 #### User Stories
 I created a number of user stories to help inform the requirements of the website, as detailed below. 
@@ -34,7 +34,7 @@ In terms of the overall design, I wanted the website to feel modern but not over
 
 All wireframes created for the project can be found [here](https://github.com/allanahmurphy/AbbeyPhysio_MS1/wireframes). The wireframes were created using [Balsamiq](https://balsamiq.com/).  
 
-<img src="./wireframes/wireframelandingpage.png" width="50%" style="margin-left: 25%">
+<img src="./wireframes/wireframelandingpage.png" width="50%">
 
 ## Features
 
@@ -81,13 +81,13 @@ Within the home page the following features are included (as well as the above):
 #### contact.html
 
 - form to send query with required fields;
-- modal popup when submitted to with 'message sent alert;
+- modal popup when submitted to with 'message sent' alert;
 - form for booking app with date picker and time choices and another popup after submitting.
 
 #### location.html
 
 - directions to clinic;
-- coloured card with address (only visible on larger devices to simply UX on mobile);
+- coloured card with address (only visible on larger devices to simplify UX on mobile);
 - interactive google maps api with marker on clinic location. 
 
 ### Future Features
@@ -126,9 +126,9 @@ A small amount of [JavaScript](https://www.javascript.com/) was used to implemen
 
 Each page was ran through the W3C HTML validator and the stylesheet through the CSS validator. The following errors were flagged and corrected:
 
-- Originally had anchors within buttons in the header which produced and error change to style anchors to look like buttons instead;
+- Originally had anchors within buttons in the header which produced an error, changed to style anchors to look like buttons instead;
 - Placeholder for form input for type date;
-- Incorrect charachter escape on whitespace, removed this whitespace and created gaps with margins instead;
+- Incorrect character escape on whitespace, removed this whitespace and created gaps with margins instead;
 - arialabelledby related to no element ID, changed this to arialabel to solve.
 
 There was additional warnings in relation to the date which flagged the date type would not be recognised on all browsers types. When tested it worked in each browser bar Safari. There were no errors or warnings flagged in the CSS validator. 
@@ -162,7 +162,7 @@ The website has been tested across multiple screen sizes using [Google Chrome de
 - iPad
 - iPad Pro
 
-The screen was also adjusted through various sizes and breakpoints with the responsive option in developer tools. The website was also opened and checked on Huawei P10 and Samsung A20 mobile devices as well as Dell xps 15 and Apple Macbook. The responsiveness was also tested on the browsers outlined above with no noted issues. Overall the website appeared as intended across each screen type. There were some intial errors particularly on iPhone5 screen size (320px width) with overflows of titles and off center imagery. However, an additional media query was added to address screens less than 400px approximately. 
+The screen was also adjusted through various sizes and breakpoints with the responsive option in developer tools. The website was also opened and checked on Huawei P10 and Samsung A20 mobile devices as well as Dell xps 15 and Apple Macbook. The responsiveness was also tested on the browsers outlined above with no noted issues. Overall the website appeared as intended across each screen type. There were some intial errors particularly on iPhone5 screen size (320px width) with overflows of titles and off center imagery. However, an additional media query was added to address this and all screens less than 400px approximately. 
 
 ### User experience & Usability
 
@@ -181,7 +181,7 @@ A thorough review was also done across all pages and links to ensure they were m
 
 ### Performance Testing
 
-Chrome developer tools was used to undertake a performance audit of each page. Generally the pages performed with the main issues relating to loading time of external scripts and stylesheets from Bootstrap & Font Awesome. The loading of Google Maps on the 'Find Us' page had the biggest impact on load times. Other issues which were addressed were images sizes which were reduced using Tiny jpg and the addition of meta description to the head for each page. 
+Chrome developer tools was used to undertake a performance audit of each page. Generally the pages performed well with the main issues relating to loading time of external scripts and stylesheets from Bootstrap & Font Awesome. The loading of Google Maps on the 'Find Us' page had the biggest impact on load times. Other issues which were addressed were images sizes which were reduced using Tiny jpg and the addition of meta description to the head for each page. 
 
 ### Known issues
 
@@ -230,7 +230,7 @@ Code was taken directly from the following sources and adjusted to fit the websi
 
 * [World Health Organisation](https://www.who.int/news-room/fact-sheets/detail/musculoskeletal-conditions);
 * [Irish Society of Chartered Physiotherapists](https://www.iscp.ie/maintain-your-health/sports-injuries);
-* [UK Society of Chartered Physiotherapists](https://www.csp.org.uk/conditions/chronic-pain)
+* [UK Society of Chartered Physiotherapists](https://www.csp.org.uk/conditions/chronic-pain).
 
 ### Media
 
@@ -244,7 +244,7 @@ The following is all images used on the website and the source, most were found 
 
 ### Acknowledgements
 
-I'd like to thank my mentor for his time, advice and patience on this project. I should also thank various friends and family member who took time to review and provide feedback as well as the Code Institute Peer Review Slack Channel. 
+I'd like to thank my mentor, Precious Ijege, for his time, advice and patience on this project. I should also thank various friends and family member who took time to review and provide feedback as well as the Code Institute Peer Review Slack Channel. 
 
 
 
